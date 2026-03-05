@@ -67,7 +67,7 @@ ol {
 .content {
   display: flex;
   min-height: 534px;
-  min-width: 1140px;
+  width: 1140px;
   gap: 30px;
   margin: auto;
   align-items: end;
@@ -179,7 +179,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__checkbox:checked  + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
